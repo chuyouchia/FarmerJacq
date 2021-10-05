@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_jacq_idle_right",
-    "path": "sprites/spr_jacq_idle_right/spr_jacq_idle_right.yy",
+    "name": "spr_devil",
+    "path": "sprites/spr_devil/spr_devil.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_depth_parent",
-    "path": "objects/obj_depth_parent/obj_depth_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_FarmerJacq",
+  "name": "obj_devil",
   "tags": [],
   "resourceType": "GMObject",
 }
