@@ -6,7 +6,6 @@
     {"id":{"name":"spr_farmer","path":"sprites/spr_farmer/spr_farmer.yy",},"order":0,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"spr_jacq_run_left_back","path":"sprites/spr_jacq_run_left_back/spr_jacq_run_left_back.yy",},"order":9,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":15,},
     {"id":{"name":"spr_jacq_run_left_front","path":"sprites/spr_jacq_run_left_front/spr_jacq_run_left_front.yy",},"order":4,},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":3,},
     {"id":{"name":"obj_FarmerJacq","path":"objects/obj_FarmerJacq/obj_FarmerJacq.yy",},"order":0,},
