@@ -39,20 +39,11 @@ if (vx !=0 || vy != 0){
 		y += vy;
 	}
 		
-	if (vx>0){
-			sprite_index=spr_jacq_run_right_front
-			if (moveDown){
-				sprite_index=spr_jacq_run_right_front
-				if(keyboard_check_released(vk_down)){sprite_index=spr_jacq_idle_right}
-				}
-			else if (moveUp) {sprite_index=spr_jacq_run_right_back}
-	}
-	if (vx<0){
-			sprite_index=spr_jacq_run_left_front
-			if (moveDown){sprite_index=spr_jacq_run_left_front}
-			else if (moveUp)
-			{sprite_index=spr_jacq_run_left_back}
-	}
+	if (vx>0){sprite_index=spr_jacq_run_right}
+	if (vx<0){sprite_index=spr_jacq_run_left}
+	if (vy>0){sprite_index=spr_jacq_run_down}
+	if (vy<0){sprite_index=spr_jacq_run_up}
+
 }
 
 
@@ -60,6 +51,10 @@ if(keyboard_check_released(vk_right)){
 	sprite_index=spr_jacq_idle_right}
 if(keyboard_check_released(vk_left)){
 	sprite_index=spr_jacq_idle_left}
+if(keyboard_check_released(vk_up)){
+	sprite_index=spr_jacq_idle_right}
+	if(keyboard_check_released(vk_down)){
+	sprite_index=spr_jacq_idle_right}
 	
 	
 //check for collision with NPC
