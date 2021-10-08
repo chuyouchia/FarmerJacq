@@ -21,7 +21,9 @@
     {"id":{"name":"spr_sprout_turret_anim","path":"sprites/spr_sprout_turret_anim/spr_sprout_turret_anim.yy",},"order":17,},
     {"id":{"name":"obj_pure_area","path":"objects/obj_pure_area/obj_pure_area.yy",},"order":12,},
     {"id":{"name":"obj_slash","path":"objects/obj_slash/obj_slash.yy",},"order":5,},
+    {"id":{"name":"obj_devilspawn","path":"objects/obj_devilspawn/obj_devilspawn.yy",},"order":13,},
     {"id":{"name":"spr_jacq_run_right","path":"sprites/spr_jacq_run_right/spr_jacq_run_right.yy",},"order":13,},
+    {"id":{"name":"obj_devilSpawner","path":"objects/obj_devilSpawner/obj_devilSpawner.yy",},"order":14,},
     {"id":{"name":"ui_pure_gauge","path":"sprites/ui_pure_gauge/ui_pure_gauge.yy",},"order":12,},
     {"id":{"name":"ui_pure","path":"sprites/ui_pure/ui_pure.yy",},"order":11,},
     {"id":{"name":"obj_devil","path":"objects/obj_devil/obj_devil.yy",},"order":3,},
@@ -84,7 +86,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "FarmerJacq",

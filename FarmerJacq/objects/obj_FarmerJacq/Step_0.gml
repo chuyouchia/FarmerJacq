@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+if (hp<=0) game_restart();
+
 moveLeft = keyboard_check(vk_left);
 moveRight = keyboard_check(vk_right);
 moveUp = keyboard_check(vk_up);
@@ -13,16 +15,14 @@ myState = playerState.idle;
 
 //if spacebar pressed, animate
 if keyboard_check_pressed(vk_space) {
-	show_debug_message("spacebar");
 	myState = playerState.attacking;
 }
 
 if keyboard_check_pressed(ord("V")) {
-	show_debug_message("V");
 	myState = playerState.planting;
 }
 switch (myState) {
-	case playerState.idle: show_debug_message("currently idle"); break;
+	case playerState.idle: break;
 	case playerState.attacking: attack(x,y,direction);show_debug_message(direction); break;
 	case playerState.planting: plant(x,y); break;
 }
