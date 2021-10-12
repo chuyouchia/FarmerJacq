@@ -9,5 +9,8 @@ if (instance_exists(obj_FarmerJacq)) {
 }
 // update image_angle and change the enemy sprites when they attack jacq
 
-if (hp<=0) instance_destroy();
+if (hp<=0){
+	instance_create_layer(x, y, "Instances", obj_seed);
+	instance_destroy();
+};
 
