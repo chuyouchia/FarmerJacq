@@ -44,10 +44,14 @@ if (vx !=0 || vy != 0){
 		y += vy;
 	}
 		
-	if (vx>0){sprite_index=spr_jacq_run_right}
-	if (vx<0){sprite_index=spr_jacq_run_left}
-	if (vy>0){sprite_index=spr_jacq_run_down}
-	if (vy<0){sprite_index=spr_jacq_run_up}
+	if (vx>0){sprite_index=spr_jacq_run_right
+		global.shootAngle = 0}
+	if (vx<0){sprite_index=spr_jacq_run_left
+		global.shootAngle = 180}
+	if (vy>0){sprite_index=spr_jacq_run_down
+		global.shootAngle = 270}
+	if (vy<0){sprite_index=spr_jacq_run_up
+		global.shootAngle = 90}
 
 }
 
@@ -61,11 +65,11 @@ if(keyboard_check_released(vk_left)){
 	global.shootAngle = 180;
 }
 if(keyboard_check_released(vk_up)){
-	sprite_index=spr_jacq_idle_right
+	sprite_index=spr_jacq_idle_up
 	global.shootAngle = 90;
 }
 if(keyboard_check_released(vk_down)){
-	sprite_index=spr_jacq_idle_right
+	sprite_index=spr_jacq_idle_down
 	global.shootAngle = 270;
 }
 	
