@@ -23,7 +23,12 @@ if keyboard_check_pressed(ord("V")) {
 }
 switch (myState) {
 	case playerState.idle: break;
-	case playerState.attacking: attack(x,y,direction);show_debug_message(direction); break;
+	case playerState.attacking: 
+		with(instance_create_layer(x, y, "Instances", obj_slash)){
+			direction = global.shootAngle;
+			image_angle = direction;
+		} 	
+		break;
 	case playerState.planting: plant(x,y); break;
 }
 
@@ -48,13 +53,21 @@ if (vx !=0 || vy != 0){
 
 
 if(keyboard_check_released(vk_right)){
-	sprite_index=spr_jacq_idle_right}
+	sprite_index=spr_jacq_idle_right
+	global.shootAngle = 0;
+}
 if(keyboard_check_released(vk_left)){
-	sprite_index=spr_jacq_idle_left}
+	sprite_index=spr_jacq_idle_left
+	global.shootAngle = 180;
+}
 if(keyboard_check_released(vk_up)){
-	sprite_index=spr_jacq_idle_right}
-	if(keyboard_check_released(vk_down)){
-	sprite_index=spr_jacq_idle_right}
+	sprite_index=spr_jacq_idle_right
+	global.shootAngle = 90;
+}
+if(keyboard_check_released(vk_down)){
+	sprite_index=spr_jacq_idle_right
+	global.shootAngle = 270;
+}
 	
 	
 //check for collision with NPC

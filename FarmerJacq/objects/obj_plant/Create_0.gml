@@ -1,11 +1,13 @@
 /// @description Check if growable
 
 alarm[0] = 120;
-/*
+
 var x_pos = floor(x / global.cell_size);
 var y_pos = floor(y / global.cell_size);
 
 global.cell[x_pos, y_pos] = id;
+
+is_growable=true;
 
 //check neighbouring cells
 var is_filled = true;
@@ -29,7 +31,6 @@ for (var i = -1; i <= 1; i++) {
 		}
 	}
 }
-//TODO need to add a sprite with tile below
 
 if (is_filled) {
 	is_growable = false;
@@ -38,4 +39,3 @@ if (is_filled) {
 if (is_growable) {
 	alarm[0] = 120;
 }
-*/

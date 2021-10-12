@@ -1,67 +1,29 @@
-/// @description Grow Plants
+/// @description Grow Purification
 // You can write your code in this editor
-show_debug_message("Can grow more!");
 
-instance_create_layer(x-16,y-16, "Instances",obj_pure_area);
-//instance_create_layer(x+2, y+70, "Instances", obj_pure_area);
+instance_create_layer(x,y, "Instances",obj_pure_area);
 
-/*
-
-if (is_growable) {
-	var x_pos = floor(x / global.cell_size);
-	var y_pos = floor(y / global.cell_size);
-	
-	if (1 == 1) {
-		var arr = [];
-		var counter = 1;
-		var can = true;
-		var k = 0;
-		repeat(9) {
-			arr[k][0] = 0;
-			arr[k][1] = 0;
-			k++;
-		}
+//update the purification of tiles
+var gx = x div global.cell_size;
+var gy = y div global.cell_size;
+for (var i = -1; i <= 1; i++) {
+	for (var j = -1; j <= 1; j++) {
+		//check for soil
+		var lay_id = layer_get_id("T_SoilLayer");
+		var map_id = layer_tilemap_get_id(lay_id);
+		var xx = (gx + i) * global.cell_size;
+		var yy = (gy + j) * global.cell_size;
+		var data = tilemap_get_at_pixel(map_id, xx,yy);
 		
-		for (var i = -1; i <= 1; i++) {
-			for (var j = -1; j <= 1; j++) {
-				if (x_pos == 0 && i == -1) {
-					can = false;
-				} else if (x_pos == global.full_w && i == 1) {
-					can = false;
-				}
-				
-				if (y_pos == 0 && j == -1) {
-					can = false;
-				} else if (y_pos == global.full_h && j == 1) {
-					can = false;
-				}
-				
- 				if (can) {
-					if (global.cell[x_pos + i, y_pos + j] == noone) {
-						arr[counter][0] = x_pos + i;
-						arr[counter][1] = y_pos + j;
-						counter++;
-					}
-				}
-				can = true;
-			}
-		}
-		var index = 0;
-		if (counter != 0) {
-			index = irandom_range(1, counter) - 1;
-		}
-		
-		
-		if (irandom(counter + 1) / 9 <= 3 / 9) {
-			instance_create_layer(arr[index][0] * global.cell_size, arr[index][1] * global.cell_size, "Land", obj_under);
-		}
-		
-		
-		
-		if (array_length(arr) == 1) {
-			is_growable = false;
+		if (data == 0 || global.ds_sprouts_instances[# gx + i , gy + j] != 0 ) {
+			show_debug_message(string(gx));
+			show_debug_message(string(gy));
+			//show_debug_message("there is no soil here!");
+			continue;
+		} else {
+			 global.ds_sprouts_instances[# gx + i , gy + j] = 1 ;
+			global.purification += 1;
 		}
 	}
-
 }
-*/
+
