@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_redseed",
-    "path": "sprites/spr_redseed/spr_redseed.yy",
+    "name": "spr_red_seed",
+    "path": "sprites/spr_red_seed/spr_red_seed.yy",
   },
   "solid": false,
   "visible": true,

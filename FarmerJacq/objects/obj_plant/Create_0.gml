@@ -1,9 +1,12 @@
 /// @description Check if growable
+hp = 2
+shooting = false;
+range = 225;
 
 alarm[0] = 120;
 
-var x_pos = floor(x / global.cell_size);
-var y_pos = floor(y / global.cell_size);
+x_pos = floor(x / global.cell_size);
+y_pos = floor(y / global.cell_size);
 
 global.cell[x_pos, y_pos] = id;
 

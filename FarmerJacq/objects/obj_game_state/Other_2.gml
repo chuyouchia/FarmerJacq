@@ -26,5 +26,5 @@ global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 
 
 global.purification = 0;
-global.purificationMax = 21;
+global.purificationMax = 97;
 global.shootAngle = 0;

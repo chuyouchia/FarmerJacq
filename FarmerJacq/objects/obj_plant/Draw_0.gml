@@ -15,3 +15,4 @@ if (data != 0) {
 	
 draw_rectangle_color(xx-(cs*1), yy-(cs*1), xx+cs*2, yy+cs*2, c, c, c, c, true);
 draw_sprite(spr_sprout,-1, xx+(cs/2), yy+(cs/2));
+
