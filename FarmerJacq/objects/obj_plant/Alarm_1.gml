@@ -3,6 +3,7 @@
 if (instance_exists(objToShoot) ){
 		var bullet = instance_create_layer(x,y -9,"Instances", obj_slash);
 		bullet.direction = point_direction(x,y, objToShoot.x, objToShoot.y);
+		obj_slash.image_angle=point_direction(x,y, objToShoot.x, objToShoot.y)
 		
 		alarm[1] = 5;
 } else {
