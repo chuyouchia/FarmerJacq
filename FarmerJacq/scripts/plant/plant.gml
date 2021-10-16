@@ -27,14 +27,15 @@ function plant(x,y){
 				//show_debug_message("there is no soil here!");
 				return;
 			} else {
-				show_debug_message("HAVE SOIL");
+				show_debug_message("can plant");
 			}
 			var inst = instance_create_layer(x, y, "Instances", obj_plant);
 			i_grid[# gx,gy] = inst;
+			ds_list_add(global.ds_sprouts_ids, inst);
 			global.seedCount -=1;
 			
 		} else {
-			show_debug_message("there is something here!");
+			show_debug_message("cannot plant!");
 			return false;
 		}
 	}

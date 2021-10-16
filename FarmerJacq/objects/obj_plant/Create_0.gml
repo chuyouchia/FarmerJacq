@@ -11,6 +11,7 @@ y_pos = floor(y / global.cell_size);
 global.cell[x_pos, y_pos] = id;
 
 is_growable=true;
+global.purification += 1;
 
 //check neighbouring cells
 var is_filled = true;

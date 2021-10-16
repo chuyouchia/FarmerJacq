@@ -1,12 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-enum playerState{
-	idle,
-	walking,
-	attacking,
-	planting,
-}
+
 global.cell = 0;
 global.cell_size = 150;
 
@@ -20,11 +15,13 @@ for (var i = 0; i <= global.full_w; i++) {
 	}
 }
 
-global.seedCount = 2;
+global.seedCount = 20;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 
-
+global.ds_sprouts_ids = ds_list_create()
+//create the regions with special tiles
 global.purification = 0;
-global.purificationMax = 97;
-global.shootAngle = 0;
+global.purificationMax = round((room_width*room_height)*0.9/(150*150));
+
+messageCreated = false;

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-hp = 10;
+hp = 20;
 spd = 1.5;
 
 image_xscale = 0.5;
