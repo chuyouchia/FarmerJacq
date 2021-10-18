@@ -14,8 +14,22 @@ for (var i = 0; i <= global.full_w; i++) {
 
 	}
 }
+global.water1 = 24;
+global.rained1 = false;
+
+global.water2 = 63;
+global.rained2 = false;
+
+global.shadow1 = 44;
+global.shadowed1 = false;
+
+global.fertile1 = 41;
+global.fertiled1 = false;
+
 
 global.seedCount = 20;
+global.earthSeedCount = 0;
+global.shadowSeedCount = 0;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 

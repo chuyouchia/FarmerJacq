@@ -15,15 +15,33 @@ for (var i = 0; i <= global.full_w; i++) {
 	}
 }
 
+global.water1 = 24;
+global.rained1 = false;
+
+global.water2 = 42;
+global.rained2 = false;
+
+global.shadow1 = 36;
+global.shadowed1 = false;
+
+global.shadow2 = 33;
+global.shadowed2 = false;
+
+global.fertile1 = 36;
+global.fertiled1 = false;
+
+global.fertile2 = 27;
+global.fertiled2 = false;
+
+
 global.seedCount = 20;
+global.earthSeedCount = 0;
+global.shadowSeedCount = 0;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 
-
 //create the regions with special tiles
-
-//global.purification = 0;
-//global.purificationMax = round((room_width*room_height)*0.9/(150*150));
-//global.shootAngle = 0;
+global.purification = 0;
+global.purificationMax = round((room_width*room_height)*0.9/(150*150));
 
 messageCreated = false;

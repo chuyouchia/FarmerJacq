@@ -18,11 +18,24 @@ if keyboard_check_pressed(vk_space) {
 	myState = playerState.planting;
 }
 
+if keyboard_check_pressed(ord("Q")) {
+	game_end();
+}
+if keyboard_check_pressed(ord("Z")) {
+	myPlant = "basic";
+}
 
+if keyboard_check_pressed(ord("X")) {
+	myPlant = "earth";
+}
+
+if keyboard_check_pressed(ord("C")) {
+	myPlant = "shadow";
+}
 
 switch (myState) {
 	case playerState.idle: break;
-	case playerState.planting: plant(x,y); break;
+	case playerState.planting: plant(x,y, myPlant) break;
 }
 
 vx = (moveRight - moveLeft) * 5;

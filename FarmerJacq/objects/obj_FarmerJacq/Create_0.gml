@@ -8,6 +8,6 @@ x = 450;
 y = 450;
 
 myState = playerState.idle;
-
+myPlant = "basic";
 
 hitByAttack = ds_list_create()

@@ -20,15 +20,15 @@ for (var i = 0; i <= global.full_w; i++) {
 	}
 }
 
-global.water1 = 23;
+global.water1 = 18;
 global.rained1 = false;
 
-global.seedCount = 2;
+global.seedCount = 20;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 
 global.ds_sprouts_ids = ds_list_create()
 global.purification = 0;
-global.purificationMax = 2//round((room_width*room_height)*0.9/(150*150));
+global.purificationMax = round((room_width*room_height)*0.9/(150*150));
 
 messageCreated = false;

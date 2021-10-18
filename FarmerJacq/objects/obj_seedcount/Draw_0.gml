@@ -7,4 +7,5 @@ var cw = camera_get_view_width(view_camera[0]);
 
 
 draw_set_font(fnt_seedsCount);
+draw_set_color(c_white); 
 draw_text(cx + cw/2, cy + 25, string(global.seedCount));
