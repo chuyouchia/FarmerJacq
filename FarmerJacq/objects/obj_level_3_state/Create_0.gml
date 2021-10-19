@@ -40,6 +40,7 @@ global.shadowSeedCount = 0;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 
+global.ds_sprouts_ids = ds_list_create()
 //create the regions with special tiles
 global.purification = 0;
 global.purificationMax = round((room_width*room_height)*0.9/(150*150));

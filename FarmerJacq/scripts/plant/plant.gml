@@ -37,6 +37,7 @@ function plant(x,y, myPlant){
 				return false;
 			}
 		}
+		
 	} else if (myPlant == "shadow") {
 		if (global.shadowSeedCount > 0) {
 			var xx = (x div global.cell_size) * global.cell_size;
