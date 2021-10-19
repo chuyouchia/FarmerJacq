@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-hp = 20;
+maxhp=20
+hp = maxhp;
 spd = 1.5;
 
 image_xscale = 0.5;
