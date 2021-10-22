@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if(instance_exists(obj_plant_earth)) {
 	
 	move_towards_point(obj_plant_earth.x, obj_plant_earth.y, spd);
@@ -15,4 +16,7 @@ if (hp<=0){
 	instance_create_layer(x, y, "Instances", obj_seed);
 	instance_destroy();
 };
+
+if(hspeed>0){image_xscale=-0.5}
+else{image_xscale=0.5}
 
