@@ -17,22 +17,28 @@ for (var i = 0; i <= global.full_w; i++) {
 global.water1 = 24;
 global.rained1 = false;
 
-global.water2 = 63;
+global.water2 = 36;
 global.rained2 = false;
 
-global.shadow1 = 44;
+global.shadow1 = 17;
 global.shadowed1 = false;
 
-global.fertile1 = 41;
+global.shadow2 = 18;
+global.shadowed2 = false;
+
+global.fertile1 = 18;
 global.fertiled1 = false;
 
+global.fertile2 = 18;
+global.fertiled2 = false;
 
-global.seedCount = 20;
+global.seedCount = 30;
 global.earthSeedCount = 0;
 global.shadowSeedCount = 0;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
-
+show_debug_message("x: " + string(global.full_w));
+show_debug_message("y: " + string(global.full_h));
 global.ds_sprouts_ids = ds_list_create()
 //create the regions with special tiles
 global.purification = 0;

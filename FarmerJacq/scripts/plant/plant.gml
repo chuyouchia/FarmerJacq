@@ -9,6 +9,9 @@ function plant(x,y, myPlant){
 			
 			var gx = x div global.cell_size;
 			var gy = y div global.cell_size;
+			show_debug_message("gx: " + string(gx));
+			show_debug_message("gy: " + string(gy));
+			
 			//check if there are any existing plants
 			var i_grid = global.ds_sprouts_instances;
 			var cell = i_grid[# gx,gy];

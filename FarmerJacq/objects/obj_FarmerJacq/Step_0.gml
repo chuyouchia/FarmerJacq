@@ -23,14 +23,23 @@ if keyboard_check_pressed(ord("Q")) {
 }
 if keyboard_check_pressed(ord("Z")) {
 	myPlant = "basic";
+	global.isBasicPlant = true;
+	global.isEarthPlant = false;
+	global.isShadowPlant = false;
 }
 
 if keyboard_check_pressed(ord("X")) {
 	myPlant = "earth";
+	global.isBasicPlant = false;
+	global.isEarthPlant = true;
+	global.isShadowPlant = false;
 }
 
 if keyboard_check_pressed(ord("C")) {
 	myPlant = "shadow";
+	global.isBasicPlant = false;
+	global.isEarthPlant = false;
+	global.isShadowPlant = true;
 }
 
 switch (myState) {

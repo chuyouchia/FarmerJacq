@@ -1,6 +1,7 @@
 /// @description start by making a super small devil
 // You can write your code in this editor
-
+hp = 1000;
+hpMax = 1000;
 image_xscale = 0.1;
 image_yscale = 0.1;
 

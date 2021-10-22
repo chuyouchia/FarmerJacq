@@ -25,15 +25,16 @@ while notFound {
 }
 
 
-if (room == Level3 and not big_boss_created) {
+if (room == Level2 and not big_boss_created) {
 	show_debug_message("boss creating....")
 	if (global.purification >= global.purificationMax*0.7) {
 		instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilSpawnExplosion_boss);
 		big_boss_created = true;
+	} else {
+		instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilspawn);
 	}
-	
 } else {
-	instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilspawn);
+		instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilspawn);
 }
 
 if (global.purification <= global.purificationMax) alarm[0] = spawnRate;

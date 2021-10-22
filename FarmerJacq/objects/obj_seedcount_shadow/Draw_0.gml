@@ -8,5 +8,11 @@ var cw = camera_get_view_width(view_camera[0]);
 
 draw_set_font(fnt_seedsCount);
 draw_set_color(c_grey); 
-draw_text(cx + cw/2, cy + 200, string(global.shadowSeedCount));
+draw_text(cx + cw/2 + 400 + 50, cy + 25, string(global.shadowSeedCount));
 
+draw_sprite(spr_bean_shadow,-1,cx + cw/2 + 300 + 50, cy + 10);
+
+if global.isShadowPlant {
+	var c = c_red;
+	draw_rectangle_color(cx + cw/2 + 300 + 50, cy + 10, cx + cw/2 + 560 + 50, cy + 90, c, c, c, c, true);
+}

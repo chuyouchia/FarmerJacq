@@ -7,11 +7,4 @@ if (room == Level2 and not moved_2) {
 	}
 }
 
-if (room == Level3 and not moved_3) {
-	if ((global.purification/global.purificationMax) >= 0.5) {
-		moved_3 = true;
-		instance_change(obj_devilSpawnerExplosion, true);
-	}
-}
-
 show_debug_message("in normal spawner")

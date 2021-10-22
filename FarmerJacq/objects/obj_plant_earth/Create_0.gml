@@ -3,7 +3,7 @@ hp = 20
 shooting = false;
 range = 225;
 
-alarm[0] = 120;
+//alarm[1] = 600;
 
 x_pos = floor(x / global.cell_size);
 y_pos = floor(y / global.cell_size);
