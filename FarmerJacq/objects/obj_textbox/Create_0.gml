@@ -17,8 +17,8 @@ box_www = 1800 //width of your box
 box_hhh = 500 //height of your box
 box_bgcolor = c_white
 box_bgcolor_alpha = 0.5
-box_ftcolor = c_gray
-box_ftcolor_alpha=0.85
+box_ftcolor = c_white
+box_ftcolor_alpha=1
 //box_offsetx = 15
 //box_offsety = -50
 

@@ -15,3 +15,6 @@ if (hp<=0){
 	instance_destroy();
 };
 
+if(hspeed>0){image_xscale=-0.5}
+else{image_xscale=0.5};
+

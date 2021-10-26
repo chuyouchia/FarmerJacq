@@ -48,3 +48,4 @@ global.isEarthPlant = false;
 global.isShadowPlant = false;
 
 messageCreated = false;
+
