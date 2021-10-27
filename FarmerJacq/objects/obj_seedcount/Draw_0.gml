@@ -8,7 +8,7 @@ var cw = camera_get_view_width(view_camera[0]);
 if global.isBasicPlant {
 	var c = c_dkgrey;
 	draw_rectangle_color(cx + cw/2 - 110 + 50, cy + 10, cx + cw/2 + 100 + 50, cy + 90, c, c, c, c, false);
-	draw_rectangle_color(cx + cw/2 - 110 + 50, cy + 10, cx + cw/2 + 100 + 50, cy + 90, c_ltgray,c_ltgray,c_ltgray,c_ltgray, true);
+	draw_rectangle_color(cx + cw/2 - 110 + 50, cy + 10, cx + cw/2 + 100 + 50, cy + 90, c_ltgray,c_ltgray,c_ltgray,c_ltgray, 0);
 }else{var c = c_dkgray;draw_rectangle_color(cx + cw/2 - 110 + 50, cy + 10, cx + cw/2 + 100 + 50, cy + 90, c, c, c, c, false);}
 
 draw_set_font(fnt_seedsCount);
