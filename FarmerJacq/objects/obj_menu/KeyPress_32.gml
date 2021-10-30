@@ -7,7 +7,7 @@ room_goto_next();
 break;
 case 1:
 show_debug_message("not implemented yet");
-//room_goto(2);
+room_goto(Level2);
 break;
 case 2:
 show_debug_message("Settings not implemented yet");

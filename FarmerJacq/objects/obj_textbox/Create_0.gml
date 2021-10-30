@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 //things that change
-earth_explanation_message = "Planting this will give you a plant that exists for 5 seconds and taunts all enemies... Press X to select this plant from your inventory and spacebar to plant it.";
-water_explanation_message = "Water will rain on this land after you conquer 100% of it!";
-shadow_explanation_message = "Planting this will give you a shadow plant that exists for 5 seconds... All enemies will be killed once it steps into the kill zone! Press C to select this plant from your inventory and spacebar to plant it.";
-basic_explanation_message = "This is a basic red seed, you can pick it up by walking to it!"
+earth_explanation_message = "Spiked seeds sprout Earth plants that attract enemies and kills them on contact!";
+water_explanation_message = "Water will rain on this land when you conquer 100% of it!";
+shadow_explanation_message = "Shadow plants explode and disappear 5 seconds after being planted, killing all enemies in their area!";
+basic_explanation_message = "Pick up seeds by walking to them! Change seeds with 'Z' and 'C'"
 
 level_end_message = "You Won! Press D to move to next room."
 

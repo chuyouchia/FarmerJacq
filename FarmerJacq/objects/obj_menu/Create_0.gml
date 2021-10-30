@@ -1,5 +1,5 @@
-x=room_width/2
-y= room_height/2 + 200
+x=obj_title.x
+y= obj_title.y + 200
 
 
 menu_x = x;
@@ -22,3 +22,4 @@ last_selected = 0;/// @description Insert description here
 draw_set_font(fnt_start)
 
 image_alpha=0
+image_speed=0.05

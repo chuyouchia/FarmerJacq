@@ -51,6 +51,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_devilSpawner","path":"objects/obj_devilSpawner/obj_devilSpawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":384.0,"resourceVersion":"1.0","name":"inst_621104C2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"EnemyLayer","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"clover","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":12,"SerialiseHeight":9,"TileSerialiseData":[
 9,10,11,8,9,10,11,8,9,10,9,10,
 8,9,10,11,8,8,17,18,19,10,9,10,
@@ -61,9 +62,9 @@
 10,11,8,9,10,4,5,6,8,9,10,11,
 8,8,9,10,8,4,5,6,8,9,10,11,
 8,9,10,11,8,4,5,6,8,9,10,11,
-],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"T_SoilLayer","tags":[],"resourceType":"GMRTileLayer",},
-    {"assets":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":75,"gridY":75,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Pure","tags":[],"resourceType":"GMRAssetLayer",},
-    {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+],},"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"T_SoilLayer","tags":[],"resourceType":"GMRTileLayer",},
+    {"assets":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":75,"gridY":75,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Pure","tags":[],"resourceType":"GMRAssetLayer",},
+    {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",

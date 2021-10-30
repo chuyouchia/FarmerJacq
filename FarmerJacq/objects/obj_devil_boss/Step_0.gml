@@ -7,6 +7,8 @@ if (instance_exists(obj_FarmerJacq)) {
 	
 }
 
+sprite_index=spr_goat_walk
+
 if (hp<=0){
 	instance_create_layer(x, y, "Instances", obj_seed);
 	instance_create_layer(x, y, "Instances", obj_seed);
@@ -16,6 +18,7 @@ if (hp<=0){
 
 	instance_destroy();
 };
+
 
 if(hspeed>0){image_xscale=-0.5}
 else{image_xscale=0.5}

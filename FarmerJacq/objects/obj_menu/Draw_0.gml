@@ -15,3 +15,4 @@ draw_text(menu_x, menu_y + button_h * i*2, button[i]);
 i++
 
 }
+

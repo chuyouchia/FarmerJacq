@@ -1,11 +1,12 @@
 /// @description Grow Purification
 // You can write your code in this editor
 
-instance_create_layer(x,y, "Instances",obj_pure_area);
+instance_create_layer((x div global.cell_size) * global.cell_size+75,(y div global.cell_size) * global.cell_size+75, "clover",obj_pure_area);
 
 //update the purification of tiles
 var gx = x div global.cell_size;
 var gy = y div global.cell_size;
+
 for (var i = -1; i <= 1; i++) {
 	for (var j = -1; j <= 1; j++) {
 		
