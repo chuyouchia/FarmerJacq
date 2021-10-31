@@ -3,7 +3,7 @@ sprite_index=spr_sprout_turret_anim
 
 turret_cooldown=0
 
-if hp == 0 {
+if hp <= 0 {
 	instance_destroy();
 }
 
