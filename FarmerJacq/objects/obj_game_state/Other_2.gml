@@ -24,6 +24,18 @@ global.seedCount = 2;
 
 global.ds_sprouts_instances = ds_grid_create(global.full_w, global.full_h);
 
+<<<<<<< Updated upstream:FarmerJacq/objects/obj_game_state/Other_2.gml
+=======
+global.ds_sprouts_ids = ds_list_create()
+global.purification = 0;
+global.purificationMax = round((room_width*room_height)*0.9/(150*150));
+
+global.isBasicPlant = true;
+global.isEarthPlant = false;
+global.isShadowPlant = false;
+
+messageCreated = false;
+>>>>>>> Stashed changes:FarmerJacq/objects/obj_level_1_state/Create_0.gml
 
 global.purification = 0;
 global.purificationMax = 97;

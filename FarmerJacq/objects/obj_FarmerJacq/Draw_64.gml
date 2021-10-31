@@ -4,6 +4,7 @@
 draw_sprite_stretched(ui_health_gauge, 0, 80, 55+100,(hp/hpMax)*550, 50);
 draw_sprite_stretched(ui_health, 0, 15, 15+100, 632, 138);
 
+<<<<<<< Updated upstream
 draw_sprite_stretched(ui_pure_gauge, 0, 80, 55,(global.purification/global.purificationMax)*550, 50);
 draw_sprite_stretched(ui_pure, 0, 15, 15, 632, 138);
 
@@ -26,3 +27,7 @@ if (data != 0) {
 draw_rectangle_color(xx, yy, xx+cs, yy+cs, c, c, c, c, true);
 */
 //draw_sprite(sprite_index,-1, xx+(cs/2), yy+(cs/2));
+=======
+draw_sprite_stretched(ui_pure_gauge, 0, 500+15, 40,(global.purification/global.purificationMax)*255, 25);
+draw_sprite_stretched(ui_pure, 0, 500, 15, 316, 69);
+>>>>>>> Stashed changes

@@ -1,5 +1,9 @@
 /// @description Check if growable
+<<<<<<< Updated upstream
 hp = 2
+=======
+hp = 10
+>>>>>>> Stashed changes
 shooting = false;
 range = 225;
 

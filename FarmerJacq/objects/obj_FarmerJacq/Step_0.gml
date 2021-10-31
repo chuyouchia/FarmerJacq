@@ -16,15 +16,45 @@ myState = playerState.idle;
 //if spacebar pressed, animate
 /*
 if keyboard_check_pressed(vk_space) {
+<<<<<<< Updated upstream
 	myState = playerState.attacking;
+=======
+	myState = playerState.planting;
+}
+
+if keyboard_check_pressed(ord("Q")) {
+	game_end();
+}
+
+if keyboard_check_pressed(ord("P")) {
+    paused = !paused;
+    if paused == false {
+        instance_activate_all();
+	}
+	
+	if paused == true {
+		 instance_deactivate_all(1);
+	}
+>>>>>>> Stashed changes
 }
 */
 
+<<<<<<< Updated upstream
 if keyboard_check_pressed(ord("V")) {
 	myState = playerState.planting;
+=======
+if keyboard_check_pressed(ord("Z")) {
+	global.plantsIndex = (global.plantsIndex-1) %3
+}
+
+
+if keyboard_check_pressed(ord("C")) {
+	global.plantsIndex = (global.plantsIndex+1) %3
+>>>>>>> Stashed changes
 }
 switch (myState) {
 	case playerState.idle: break;
+<<<<<<< Updated upstream
 	/*
 	case playerState.attacking: 
 		with(instance_create_layer(x, y, "Instances", obj_slash)){
@@ -34,6 +64,9 @@ switch (myState) {
 		break;
 	*/
 	case playerState.planting: plant(x,y); break;
+=======
+	case playerState.planting: plant(x,y, global.plants[global.plantsIndex]) break;
+>>>>>>> Stashed changes
 }
 
 vx = (moveRight - moveLeft) * 5;
