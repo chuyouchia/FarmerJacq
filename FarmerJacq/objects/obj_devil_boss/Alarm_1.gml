@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @description Jacq Dies
 // You can write your code in this editor
 room_restart();

@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if !variable_global_exists("seenBasicText") {
+	global.seenShadowText = false;
+	global.seenEarthText = false;
+	global.seenBasicText = false;
+}
 
 global.cell = 0;
 global.cell_size = 150;

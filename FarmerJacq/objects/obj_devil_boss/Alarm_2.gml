@@ -1,4 +1,4 @@
-/// @description Spawn monsters
+/// @description Create Monsters
 // You can write your code in this editor
 while count > 0 {
 	val = ds_list_find_value(global.ds_sprouts_ids, random(ds_list_size(global.ds_sprouts_ids)-1));
@@ -12,5 +12,3 @@ while count > 0 {
 	}
 	count -= 1;
 }
-
-sprite_index = spr_goat_damaged;

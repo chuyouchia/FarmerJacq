@@ -10,11 +10,7 @@ if (instance_exists(obj_FarmerJacq)) {
 sprite_index=spr_goat_walk
 
 if (hp<=0){
-	instance_create_layer(x, y, "Instances", obj_seed);
-	instance_create_layer(x, y, "Instances", obj_seed);
-	instance_create_layer(x, y, "Instances", obj_seed);
-	instance_create_layer(x, y, "Instances", obj_seed);
-	instance_create_layer(x, y, "Instances", obj_seed);
+	
 
 	instance_destroy();
 };

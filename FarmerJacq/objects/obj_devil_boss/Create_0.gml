@@ -6,3 +6,6 @@ spd = 2;
 
 image_xscale = 0.5;
 image_yscale = image_xscale;
+
+isWave1 = false;
+isWave2 = false;
