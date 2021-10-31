@@ -18,7 +18,7 @@ draw_set_font(fnt_seedsCount);
 draw_set_color(c_yellow); 
 
 
-if global.isEarthPlant {draw_sprite_ext(spr_bean_earth,-1,cx + cw/2+100 + 100, cy + 50,1.2,1.2,0,c_white,0.7);}
+if global.isEarthPlant {draw_sprite_ext(spr_bean_earth,-1,cx + cw/2+100 + 100, cy + 50,1.2,1.2,30,c_white,0.6);}
 	else{draw_sprite_ext(spr_bean_earth,-1,cx + cw/2+100 + 100, cy + 50,1,1,0,c_black,0.5);}
 
 draw_text(cx + cw/2 + 200 + 50, cy + 40, string(global.earthSeedCount));
