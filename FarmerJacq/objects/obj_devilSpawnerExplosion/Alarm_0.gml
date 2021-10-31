@@ -8,7 +8,7 @@ explosion_instance = noone;
 if val != 0 {
 	with (val) {
 		explosion_instance = instance_create_layer(x_pos*150,y_pos*150, "Instances", obj_explosion);
-		hp = hp - 2;
+		hp = hp - 20;
 		cleanup_plant(x_pos, y_pos);
 	}
 }

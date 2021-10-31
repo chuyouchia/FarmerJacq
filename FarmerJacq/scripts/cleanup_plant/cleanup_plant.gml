@@ -3,6 +3,7 @@
 function cleanup_plant(x,y){
 	//remove purification overlay
 	with instance_position(x*150, y*150, obj_pure_area) instance_destroy(); 
+	with instance_position(x*150, y*150, obj_plant) instance_destroy(); 
 	//update sprouts structure
 	for (var i = -1; i <= 1; i++) {
 		for (var j = -1; j <= 1; j++) {

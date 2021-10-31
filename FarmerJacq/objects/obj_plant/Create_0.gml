@@ -1,5 +1,5 @@
 /// @description Check if growable
-hp = 4
+hp = 10
 shooting = false;
 range = 225;
 
