@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-dis = distance_to_object(obj_FarmerJacq);
-if( dis <= box_range && !hasBeenSeen)
+
+if( !hasBeenSeen)
 {
    draw_sprite_ext(ui_popup,0,room_width/2,room_height/2,3,3,0,c_white,1)
    draw_set_font(fnt_popup)

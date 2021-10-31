@@ -8,6 +8,9 @@ x = 450;
 y = 450;
 
 myState = playerState.idle;
-myPlant = "basic";
 
 hitByAttack = ds_list_create()
+global.plants = ["basic", "earth", "shadow"];
+global.plantsIndex = 0;
+
+paused = false;

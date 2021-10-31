@@ -22,3 +22,20 @@ if (hp<=0){
 
 if(hspeed>0){image_xscale=-0.5}
 else{image_xscale=0.5}
+
+
+if (hp <= hpMax*0.5 and !isWave1){
+	sprite_index = spr_goat_boost;
+	count += 5
+	alarm[2] = 1;
+	isWave1 = !isWave1;
+}
+
+if (hp <= hpMax*0.2 and !isWave2){
+	sprite_index = spr_goat_boost;
+	if count == 0 {
+		alarm[2] = 1;
+	}
+	count += 5;
+	isWave2 = !isWave2;
+}

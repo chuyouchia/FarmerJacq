@@ -3,6 +3,6 @@
 sprite_index = spr_devil_attack;
 
 with (other){
-	hp = hp -2;
+	hp = hp -5;
 }
 instance_destroy();

@@ -6,8 +6,8 @@ menu_x = x;
 menu_y = y;
 button_h = 32;
 
-button[0] = "New Game"
-button[1] = "Start from L2"
+button[0] = "Tutorial"
+button[1] = "New Game"
 
 //button start from L2 is not working due to some referring error
 button[2] = "Settings"

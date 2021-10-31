@@ -83,7 +83,6 @@
     {"id":{"name":"spr_whitepixel","path":"sprites/spr_whitepixel/spr_whitepixel.yy",},"order":39,},
     {"id":{"name":"spr_devil_attack","path":"sprites/spr_devil_attack/spr_devil_attack.yy",},"order":20,},
     {"id":{"name":"spr_red_seed","path":"sprites/spr_red_seed/spr_red_seed.yy",},"order":24,},
-    {"id":{"name":"Level3","path":"rooms/Level3/Level3.yy",},"order":1,},
     {"id":{"name":"obj_pure_gauge","path":"objects/obj_pure_gauge/obj_pure_gauge.yy",},"order":10,},
     {"id":{"name":"obj_rain2","path":"objects/obj_rain2/obj_rain2.yy",},"order":19,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":42,},
@@ -137,7 +136,6 @@
     {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
-    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -163,7 +161,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.4.580",
   },
   "resourceVersion": "1.4",
   "name": "FarmerJacq",

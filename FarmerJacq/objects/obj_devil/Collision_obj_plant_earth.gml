@@ -6,4 +6,4 @@ with (other){
 	hp = hp - 5;
 }
 
-instance_destroy();
+if not hitByEarth {hitByEarth = true; hp = hp-1;}

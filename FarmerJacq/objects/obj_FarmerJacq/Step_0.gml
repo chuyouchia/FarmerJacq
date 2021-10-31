@@ -22,29 +22,20 @@ if keyboard_check_pressed(ord("Q")) {
 	game_end();
 }
 if keyboard_check_pressed(ord("Z")) {
-	myPlant = "basic";
-	global.isBasicPlant = true;
-	global.isEarthPlant = false;
-	global.isShadowPlant = false;
+	global.plantsIndex = (global.plantsIndex-1) %3
+	if global.plantsIndex < 0 {
+		global.plantsIndex += 3;
+	}
 }
 
-if keyboard_check_pressed(ord("X")) {
-	myPlant = "earth";
-	global.isBasicPlant = false;
-	global.isEarthPlant = true;
-	global.isShadowPlant = false;
-}
 
 if keyboard_check_pressed(ord("C")) {
-	myPlant = "shadow";
-	global.isBasicPlant = false;
-	global.isEarthPlant = false;
-	global.isShadowPlant = true;
+	global.plantsIndex = (global.plantsIndex+1) %3
 }
 
 switch (myState) {
 	case playerState.idle: break;
-	case playerState.planting: plant(x,y, myPlant) break;
+	case playerState.planting: plant(x,y, global.plants[global.plantsIndex]) break;
 }
 
 vx = (moveRight - moveLeft) * 5;
