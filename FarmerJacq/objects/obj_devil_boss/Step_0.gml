@@ -25,6 +25,7 @@ if (hp <= hpMax*0.5 and !isWave1){
 	count += 5
 	alarm[2] = 1;
 	isWave1 = !isWave1;
+	instance_create_layer(room_width/2,room_height/2 - 30,"clover",ui_wave2)
 }
 
 if (hp <= hpMax*0.2 and !isWave2){
@@ -34,4 +35,5 @@ if (hp <= hpMax*0.2 and !isWave2){
 	}
 	count += 5;
 	isWave2 = !isWave2;
+	instance_create_layer(room_width/2,room_height/2 - 30,"clover",ui_wave3)
 }
