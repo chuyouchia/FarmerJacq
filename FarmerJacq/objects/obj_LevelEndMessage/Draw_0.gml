@@ -9,3 +9,4 @@ var ch = camera_get_view_height(view_camera[0]);
 
 draw_set_font(fnt_seedsCount);
 draw_text(cx, cy + ch/2, "You Won! Press D to move to next room.");
+audio_play_sound(snd_win,1,0)

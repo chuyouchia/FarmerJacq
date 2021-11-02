@@ -28,6 +28,7 @@ if keyboard_check_pressed(ord("Z")) {
 	}
 }
 if keyboard_check_pressed(ord("P")) {
+	draw_sprite(spr_help, 0, 1800/2,1350/2)
     paused = !paused;
     if paused == false {
         instance_activate_all();
@@ -35,6 +36,7 @@ if keyboard_check_pressed(ord("P")) {
 	
 	if paused == true {
 		 instance_deactivate_all(1);
+		 
 	}
 }
 
@@ -79,3 +81,5 @@ if(keyboard_check_released(vk_up)){
 if(keyboard_check_released(vk_down)){
 	sprite_index=spr_jacq_idle_down
 }
+
+if(speed<0 or speed>0){audio_play_sound(snd_jacqstep,1,1)}else{audio_stop_sound(snd_jacqstep)}

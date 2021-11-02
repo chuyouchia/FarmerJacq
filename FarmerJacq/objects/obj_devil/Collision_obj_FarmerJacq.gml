@@ -2,6 +2,7 @@
 
 with(other) {
 	hp = hp -5;
+	audio_play_sound(snd_jacqhit, 3,0)
 	
 }
 

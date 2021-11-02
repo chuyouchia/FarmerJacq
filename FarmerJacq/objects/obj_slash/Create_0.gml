@@ -5,6 +5,7 @@
 
 ///create event
 alarm[0] = room_speed * 1;
+audio_play_sound(snd_basic_blast,1,false)
 
 
 

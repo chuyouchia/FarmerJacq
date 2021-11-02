@@ -4,5 +4,6 @@
 with(other){
 	hp = hp-2;
 	sprite_index = spr_devil_attack;
+	audio_play_sound(snd_monster_oof,2,0)
 }; 
 instance_destroy();

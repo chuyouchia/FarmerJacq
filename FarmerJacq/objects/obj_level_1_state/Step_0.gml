@@ -6,6 +6,7 @@ if (global.purification >= global.purificationMax  && !messageCreated) {
 	var inst = instance_create_layer(0,0,"Instances", obj_textbox);
 	inst.explanation_message = inst.level_end_message;
 	messageCreated = true;
+	audio_play_sound(snd_win,6,0)
 }
 
 //check water_1 if fully conquered (zeroed)

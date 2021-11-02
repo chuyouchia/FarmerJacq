@@ -1,0 +1,23 @@
+{
+  "audioGroupId": {
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
+  },
+  "soundFile": "mixkit_angry_and_agitated_dog_growling_53.wav",
+  "name": "mixkit_angry_and_agitated_dog_growling_53",
+  "compression": 0,
+  "type": 0,
+  "sampleRate": 44100,
+  "bitDepth": 1,
+  "bitRate": 128,
+  "duration": 3.52,
+  "volume": 1.0,
+  "preload": false,
+  "parent": {
+    "name": "FarmerJacq",
+    "path": "FarmerJacq.yyp",
+  },
+  "resourceVersion": "1.0",
+  "tags": [],
+  "resourceType": "GMSound",
+}

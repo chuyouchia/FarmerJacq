@@ -43,3 +43,5 @@ if (is_filled) {
 if (is_growable) {
 	alarm[0] = 120;
 }
+
+audio_play_sound(snd_stab,2,0)

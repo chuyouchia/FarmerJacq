@@ -1,5 +1,5 @@
 /// @description Check if growable
-hp = 20
+hp = 2000
 shooting = false;
 range = 225;
 
@@ -43,3 +43,5 @@ if (is_filled) {
 if (is_growable) {
 	alarm[0] = 120;
 }
+
+audio_play_sound(snd_stab,2,0)

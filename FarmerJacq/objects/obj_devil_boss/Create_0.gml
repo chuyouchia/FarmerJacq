@@ -9,3 +9,5 @@ image_yscale = image_xscale;
 
 isWave1 = false;
 isWave2 = false;
+
+audio_play_sound(snd_roar,5,0)
