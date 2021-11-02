@@ -27,18 +27,7 @@ if keyboard_check_pressed(ord("Z")) {
 		global.plantsIndex += 3;
 	}
 }
-if keyboard_check_pressed(ord("P")) {
-	draw_sprite(spr_help, 0, 1800/2,1350/2)
-    paused = !paused;
-    if paused == false {
-        instance_activate_all();
-	}
-	
-	if paused == true {
-		 instance_deactivate_all(1);
-		 
-	}
-}
+
 
 if keyboard_check_pressed(ord("C")) {
 	global.plantsIndex = (global.plantsIndex+1) %3

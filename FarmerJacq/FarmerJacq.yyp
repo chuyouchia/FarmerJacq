@@ -63,6 +63,7 @@
     {"id":{"name":"attack","path":"scripts/attack/attack.yy",},"order":0,},
     {"id":{"name":"obj_shadow_pointer_1","path":"objects/obj_shadow_pointer_1/obj_shadow_pointer_1.yy",},"order":30,},
     {"id":{"name":"spr_jacq_run_left","path":"sprites/spr_jacq_run_left/spr_jacq_run_left.yy",},"order":14,},
+    {"id":{"name":"obj_pause_runner","path":"objects/obj_pause_runner/obj_pause_runner.yy",},"order":33,},
     {"id":{"name":"spr_sprout_turret_anim","path":"sprites/spr_sprout_turret_anim/spr_sprout_turret_anim.yy",},"order":17,},
     {"id":{"name":"fnt_seedsCount","path":"fonts/fnt_seedsCount/fnt_seedsCount.yy",},"order":0,},
     {"id":{"name":"obj_pure_area","path":"objects/obj_pure_area/obj_pure_area.yy",},"order":11,},
