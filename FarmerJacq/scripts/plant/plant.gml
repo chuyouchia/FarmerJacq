@@ -21,7 +21,8 @@ function plant(x,y, myPlant){
 				var lay_id = layer_get_id("T_SoilLayer");
 				var map_id = layer_tilemap_get_id(lay_id);
 				var data = tilemap_get_at_pixel(map_id, xx,yy);
-		
+
+				
 				if (data == 0) {
 					show_debug_message(string(gx));
 					show_debug_message(string(gy));
@@ -31,6 +32,7 @@ function plant(x,y, myPlant){
 					show_debug_message("can plant");
 				}
 				var inst = instance_create_layer(x, y, "Instances", obj_plant);
+				tilemap_set(map_id, 2, gx, gy);
 				i_grid[# gx,gy] = inst;
 				ds_list_add(global.ds_sprouts_ids, inst);
 				global.seedCount -=1;
@@ -59,7 +61,8 @@ function plant(x,y, myPlant){
 				var lay_id = layer_get_id("T_SoilLayer");
 				var map_id = layer_tilemap_get_id(lay_id);
 				var data = tilemap_get_at_pixel(map_id, xx,yy);
-		
+				
+				
 				if (data == 0) {
 					show_debug_message(string(gx));
 					show_debug_message(string(gy));
@@ -69,6 +72,7 @@ function plant(x,y, myPlant){
 					show_debug_message("can plant");
 				}
 				var inst = instance_create_layer(x, y, "Instances", obj_plant_shadow);
+
 				i_grid[# gx,gy] = inst;
 				ds_list_add(global.ds_sprouts_ids, inst);
 				global.shadowSeedCount -=1;
@@ -106,6 +110,7 @@ function plant(x,y, myPlant){
 					show_debug_message("can plant");
 				}
 				var inst = instance_create_layer(x, y, "Instances", obj_plant_earth);
+				tilemap_set(map_id, 2, gx, gy);
 				i_grid[# gx,gy] = inst;
 				ds_list_add(global.ds_sprouts_ids, inst);
 				global.earthSeedCount -=1;
