@@ -3,7 +3,7 @@
 
 //things that change
 earth_explanation_message = "Spiked seeds sprout Earth plants that attract enemies and kills them on contact!";
-water_explanation_message = "Water will rain on this land when you conquer 100% of it!";
+water_explanation_message = "Conquering WaterLand will cause Rainfall that kills all Monsters!";
 shadow_explanation_message = "Shadow plants explode and disappear 5 seconds after being planted, killing all enemies in their area!";
 basic_explanation_message = "Pick up seeds by walking to them! Change seeds with 'Z' and 'C'"
 
