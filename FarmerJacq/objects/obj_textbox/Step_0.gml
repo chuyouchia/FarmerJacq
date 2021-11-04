@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 //things that stay the same between different text boxes
-box_message = explanation_message + " Press V to acknowledge."
+box_message = explanation_message
 
 
-if keyboard_check_pressed(ord("V")) {
+if keyboard_check_pressed(vk_space) {
 	hasBeenSeen = true;
     
 }

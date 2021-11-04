@@ -19,3 +19,5 @@ while count > 0 {
 	}
 	count -= 1;
 }
+
+scream_count=0

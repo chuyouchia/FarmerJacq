@@ -45,3 +45,5 @@ if (is_growable) {
 }
 
 audio_play_sound(snd_stab,2,0)
+
+sound_count=1

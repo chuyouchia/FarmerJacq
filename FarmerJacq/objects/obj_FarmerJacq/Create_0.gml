@@ -13,3 +13,4 @@ hitByAttack = ds_list_create()
 global.plants = ["basic", "earth", "shadow"];
 global.plantsIndex = 0;
 
+count=0

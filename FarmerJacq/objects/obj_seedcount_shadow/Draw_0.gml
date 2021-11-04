@@ -13,9 +13,9 @@ var cw = camera_get_view_width(view_camera[0]);
 //	draw_rectangle_color(cx + cw/2 + 300 + 50, cy + 10, cx + cw/2 + 510 + 50, cy + 90, c, c, c, c, false);}
 
 draw_set_font(fnt_seedsCount);
-draw_set_color(c_grey); 
+draw_set_color(c_white); 
 
-if global.plants[global.plantsIndex] == "shadow" {draw_sprite_ext(spr_bean_shadow,-1,cx + cw/2 + 300 + 100, cy + 50,1.2,1.2,30,c_white,0.6);}
-else{draw_sprite_ext(spr_bean_shadow,-1,cx + cw/2 + 300 + 100, cy + 50,1,1,0,c_black,0.5);}
+if global.plants[global.plantsIndex] == "shadow" {draw_sprite_ext(spr_bean_shadow,-1,cx + cw/2 + 240, cy + 50,1.2,1.2,30,c_white,0.7);}
+else{draw_sprite_ext(spr_bean_shadow,-1,cx + cw/2 +240, cy + 50,1,1,0,c_black,0.5);}
 
-draw_text(cx + cw/2 + 400 + 50, cy + 40, string(global.shadowSeedCount));
+draw_text(cx + cw/2 + 240 + 50, cy + 40, string(global.shadowSeedCount));

@@ -22,6 +22,7 @@ if keyboard_check_pressed(ord("Q")) {
 	game_end();
 }
 if keyboard_check_pressed(ord("Z")) {
+	audio_play_sound(snd_select_ui,9,0)
 	global.plantsIndex = (global.plantsIndex-1) %3
 	if global.plantsIndex < 0 {
 		global.plantsIndex += 3;
@@ -30,6 +31,7 @@ if keyboard_check_pressed(ord("Z")) {
 
 
 if keyboard_check_pressed(ord("C")) {
+	audio_play_sound(snd_select_ui,9,0)
 	global.plantsIndex = (global.plantsIndex+1) %3
 }
 
@@ -50,13 +52,14 @@ if (vx !=0 || vy != 0){
 		y += vy;
 	}
 		
-	if (vx>0){sprite_index=spr_jacq_run_right}
-	if (vx<0){sprite_index=spr_jacq_run_left}
-	if (vy>0){sprite_index=spr_jacq_run_down}
-	if (vy<0){sprite_index=spr_jacq_run_up}
+	if (vx>0){sprite_index=spr_jacq_run_right;}
+	if (vx<0){sprite_index=spr_jacq_run_left;}
+	if (vy>0){sprite_index=spr_jacq_run_down;}
+	if (vy<0){sprite_index=spr_jacq_run_up;}
 
 }
 
+if (vx==0 and vy==0){audio_stop_sound(snd_jacqstep)}
 
 if(keyboard_check_released(vk_right)){
 	sprite_index=spr_jacq_idle_right
@@ -71,4 +74,13 @@ if(keyboard_check_released(vk_down)){
 	sprite_index=spr_jacq_idle_down
 }
 
-if(speed<0 or speed>0){audio_play_sound(snd_jacqstep,1,1)}else{audio_stop_sound(snd_jacqstep)}
+//footstep sounds
+//if(keyboard_check_pressed(vk_left)){audio_play_sound(snd_jacqstep,1,1)}
+//if(keyboard_check_pressed(vk_right)){audio_play_sound(snd_jacqstep,1,1)}
+//if(keyboard_check_pressed(vk_up)){audio_play_sound(snd_jacqstep,1,1)}
+//if(keyboard_check_pressed(vk_down)){audio_play_sound(snd_jacqstep,1,1)}
+
+//if (vx==0 and vy==0){audio_stop_sound(snd_jacqstep)}
+//	else{count += 1;
+//		 if (count == 52){count = 0;audio_play_sound(snd_jacqstep,1,0)}
+//	}

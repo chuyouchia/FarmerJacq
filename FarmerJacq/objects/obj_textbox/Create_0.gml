@@ -2,17 +2,17 @@
 // You can write your code in this editor
 
 //things that change
-earth_explanation_message = "Spiked seeds sprout Earth plants that attract enemies and kills them on contact!";
+earth_explanation_message = "Spiked seeds sprout Earth plants that attract enemies and slightly damages them on contact!";
 water_explanation_message = "Conquering WaterLand will cause Rainfall that kills all Monsters!";
 shadow_explanation_message = "Shadow plants explode and disappear 5 seconds after being planted, killing all enemies in their area!";
 basic_explanation_message = "Pick up seeds by walking to them! Change seeds with 'Z' and 'C'"
 
-level_end_message = "You Won! Press D to move to next room."
+level_end_message = "You Won! Press SPACE to move to next room."
 
 box_range = 225;
 explanation_message = water_explanation_message
 //things that stay the same between different text boxes
-box_message = explanation_message + " Press V to acknowledge"
+box_message = explanation_message
 box_www = 1800 //width of your box
 box_hhh = 500 //height of your box
 box_bgcolor = c_white
@@ -34,3 +34,4 @@ box_message_y1 = box_y1 + 10
 
 
 hasBeenSeen = false;
+

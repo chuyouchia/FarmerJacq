@@ -9,3 +9,5 @@ image_xscale = 0.5;
 image_yscale = image_xscale;
 
 hitByEarth = false;
+
+scream_count=0

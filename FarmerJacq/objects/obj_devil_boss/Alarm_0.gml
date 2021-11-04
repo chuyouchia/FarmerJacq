@@ -6,6 +6,8 @@ var cy = camera_get_view_y(view_camera[0]);
 var cw = camera_get_view_width(view_camera[0]);
 var ch = camera_get_view_height(view_camera[0]);
 
-draw_set_font(fnt_seedsCount);
-draw_text(cx, cy + ch/2, "You LOST! Room will restart :( ");
-alarm[1] = 360;
+//draw_set_font(fnt_seedsCount);
+//draw_text(cx, cy + ch/2, "You LOST! Room will restart :( ");
+sprite_index=spr_goat_win
+
+alarm[1] = 150;
