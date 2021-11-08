@@ -21,7 +21,7 @@ for (var i = -1; i <= 1; i++) {
 		} else {
 			global.ds_sprouts_instances[# gx + i , gy + j] = 1 ;
 			global.purification += 1;
-			tilemap_set(map_id, 2, gx+i, gy+j);
+			tilemap_set(map_id, 5, gx+i, gy+j);
 		}
 	}
 	
