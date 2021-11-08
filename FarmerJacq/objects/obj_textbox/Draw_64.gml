@@ -14,6 +14,7 @@ if( !hasBeenSeen)
    
    //text alignment
    draw_text_ext_colour(1800/2,1350/2-280,box_message, 60, 1200, c_white,c_white,c_white,c_white,1);
+   draw_text_ext_colour(1800/2,1350/2,box_message_2, 60, 1200, c_white,c_white,c_white,c_white,1);
    if(explanation_message==water_explanation_message){draw_sprite(tut_rain,-1,1800/2,1350/2)}
    if(explanation_message==basic_explanation_message){draw_sprite(tut_rain,-1,1800/2,1350/2)}
    if(explanation_message==earth_explanation_message){draw_sprite(tut_earth,-1,1800/2,1350/2)}

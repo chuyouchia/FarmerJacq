@@ -7,6 +7,7 @@ if !variable_global_exists("seenBasicText") {
 	global.seenBasicText = false;
 }
 
+
 global.cell = 0;
 global.cell_size = 150;
 
@@ -37,7 +38,7 @@ global.fertiled1 = false;
 global.fertile2 = 18;
 global.fertiled2 = false;
 
-global.seedCount = 30;
+global.seedCount = 25;
 global.earthSeedCount = 0;
 global.shadowSeedCount = 0;
 

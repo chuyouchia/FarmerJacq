@@ -11,6 +11,7 @@ level_end_message = "You Won! Press SPACE to move to next room."
 
 box_range = 225;
 explanation_message = water_explanation_message
+box_message_2 = ""
 //things that stay the same between different text boxes
 box_message = explanation_message
 box_www = 1800 //width of your box

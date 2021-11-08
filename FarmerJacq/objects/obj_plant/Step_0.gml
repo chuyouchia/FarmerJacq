@@ -21,12 +21,32 @@ turret_cooldown-=1
 objToShoot = noone;
 //if there is enemy, shoot at nearest
 var en = noone;
-if (instance_nearest(x,y,obj_devil_boss) != noone) {
+enemyFound = false;
+if (instance_nearest(x,y,obj_devil_boss) != noone and !enemyFound) {
 	en = instance_nearest(x,y,obj_devil_boss);
-} else if (instance_nearest(x,y,obj_devilExplosion)){
+	enemyFound = true
+	if distance_to_object(en) > range {
+		en = noone;
+		enemyFound = false;
+	}
+}
+
+if (instance_nearest(x,y,obj_devilExplosion and !enemyFound)){
 	en = instance_nearest(x,y,obj_devilExplosion);
-} else {
+	enemyFound = true
+	if distance_to_object(en) > range {
+		en = noone;
+		enemyFound = false;
+	}
+}
+
+if (instance_nearest(x,y,obj_devil and !enemyFound)) {
 	en = instance_nearest(x,y,obj_devil);
+	enemyFound = true
+	if distance_to_object(en) > range {
+		en = noone;
+		enemyFound = false;
+	}
 }
 
 if (en != noone) {

@@ -18,6 +18,7 @@ if keyboard_check_pressed(vk_space) {
 	myState = playerState.planting;
 }
 
+
 if keyboard_check_pressed(ord("Q")) {
 	game_end();
 }

@@ -11,5 +11,5 @@ if(room==Level2){
 	image_xscale=1.67
 	image_yscale=1.67}
 	
-instance_deactivate_all()
+instance_deactivate_all(1);
 audio_play_sound(snd_loss,7,0)
