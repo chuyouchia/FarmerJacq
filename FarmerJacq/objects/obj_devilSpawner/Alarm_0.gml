@@ -5,7 +5,7 @@
 notFound = false
 x_devil = 0;
 y_devil = 0;
-
+plantFound = false;
 for (var i = 0; i < 12; i++) {
 	for (var j = 0; j < 9; j++) {
 		if (global.ds_sprouts_instances[# i ,j] == 0 ) {
@@ -20,7 +20,8 @@ while notFound {
 	y_devil = random(1350)/global.cell_size
 	
 	if (global.ds_sprouts_instances[# x_devil, y_devil]  == 0 ){
-		notFound = false
+		plantFound = true;
+		break;
 	}
 }
 
@@ -29,7 +30,7 @@ if (global.boss_dead) {
 }
 
 
-if (room == Level2 and not big_boss_created) {
+if (room == Level2 and not big_boss_created && plantFound) {
 	show_debug_message("boss creating....")
 	if (global.purification >= global.purificationMax*0.7) {
 		instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilSpawnExplosion_boss);
@@ -37,7 +38,7 @@ if (room == Level2 and not big_boss_created) {
 	} else {
 		instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilspawn);
 	}
-} else {
+} else if (plantFound) {
 		instance_create_layer(x_devil * global.cell_size,y_devil * global.cell_size, "EnemyLayer", obj_devilspawn);
 }
 

@@ -6,4 +6,4 @@ with (other){
 	hp = hp - 5;
 }
 
-if not hitByEarth {hitByEarth = true; hp = hp-1;}
+hp = hp-1
