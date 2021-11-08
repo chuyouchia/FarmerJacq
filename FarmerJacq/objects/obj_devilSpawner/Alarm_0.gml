@@ -25,7 +25,7 @@ while notFound {
 }
 
 if (global.boss_dead) {
-	spawnRate = 120;
+	spawnRate = 480;
 }
 
 

@@ -32,7 +32,7 @@ function plant(x,y, myPlant){
 					show_debug_message("can plant");
 				}
 				var inst = instance_create_layer(x, y, "Instances", obj_plant);
-				tilemap_set(map_id, 2, gx, gy);
+				tilemap_set(map_id, 5, gx, gy);
 				i_grid[# gx,gy] = inst;
 				ds_list_add(global.ds_sprouts_ids, inst);
 				global.seedCount -=1;

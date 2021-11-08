@@ -22,7 +22,7 @@ for (var i = 0; i <= global.full_w; i++) {
 
 	}
 }
-
+global.boss_dead = false;
 global.water1 = 9;
 global.rained1 = false;
 
