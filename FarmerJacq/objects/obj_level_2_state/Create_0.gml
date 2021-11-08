@@ -6,7 +6,7 @@ if !variable_global_exists("seenBasicText") {
 	global.seenEarthText = false;
 	global.seenBasicText = false;
 }
-
+window_set_caption("Farmer Jacq");
 
 global.cell = 0;
 global.cell_size = 150;

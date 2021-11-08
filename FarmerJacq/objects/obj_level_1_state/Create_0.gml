@@ -3,7 +3,7 @@
 global.seenShadowText = false;
 global.seenEarthText = false;
 global.seenBasicText = false;
-
+window_set_caption("Farmer Jacq");
 enum playerState{
 	idle,
 	walking,

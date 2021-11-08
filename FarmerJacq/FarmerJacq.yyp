@@ -68,7 +68,7 @@
     {"id":{"name":"ui_health_gauge","path":"sprites/ui_health_gauge/ui_health_gauge.yy",},"order":10,},
     {"id":{"name":"obj_FarmerJacq","path":"objects/obj_FarmerJacq/obj_FarmerJacq.yy",},"order":0,},
     {"id":{"name":"spr_fire_spawn","path":"sprites/spr_fire_spawn/spr_fire_spawn.yy",},"order":33,},
-    {"id":{"name":"obj_level_3_state","path":"objects/obj_level_3_state/obj_level_3_state.yy",},"order":22,},
+    {"id":{"name":"obj_start_state","path":"objects/obj_start_state/obj_start_state.yy",},"order":22,},
     {"id":{"name":"spr_bean_shadow","path":"sprites/spr_bean_shadow/spr_bean_shadow.yy",},"order":26,},
     {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},"order":40,},
     {"id":{"name":"spr_pure_area","path":"sprites/spr_pure_area/spr_pure_area.yy",},"order":18,},
