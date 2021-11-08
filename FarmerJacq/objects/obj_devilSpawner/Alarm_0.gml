@@ -24,6 +24,10 @@ while notFound {
 	}
 }
 
+if (global.boss_dead) {
+	spawnRate = 120;
+}
+
 
 if (room == Level2 and not big_boss_created) {
 	show_debug_message("boss creating....")
