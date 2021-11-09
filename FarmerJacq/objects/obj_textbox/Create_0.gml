@@ -1,5 +1,37 @@
 /// @description Insert description here
 // You can write your code in this editor
+//dialogue bank
+hey_1 = "Hail and well met, grandchild! I see you've received my inheritance letter!";
+hey_2 = "Good to see one of my own coming back to reclaim the family farmstead...";
+hey_3 = "Alas! The whole place is teeming with horned varmints!"
+hey_4 = "No worries, 'cause your ole Peepaw is gonna teach you how to clean house..."
+hey_5 = "Start by sowing one of 'em MAGIC BEANS right here!"
+
+//First Plant, should happen after purification
+plant_1= "These MAGIC BEANS will help purify our land and make the ground ripe for planting again..."
+plant_2= "This bar will help you keep track of how much you've purified the land!" //show purification UI
+plant_3= "RED BEANS make SPROUTS that'll also help protect against those pests infesting the place..."
+plant_4= "Those little devils will be coming for you to chase you out, so make sure to lure them towards them!"
+plant_5= "In fact, here comes one of them right now!"
+
+//Special Lands
+spec_1_hit= "I see you got hit by one of 'em! Be careful, 'cause too many injuries and you'll join ole Peepaw in this sad sad afterlife"
+spec_1_nohit= "Well done, grandchild! Good dodging, don't want to let those varmints get a claw on you"
+spec_2= "This bar shows you how much HEALTH you got left! So unless you have grandkids of 'yer own to inherit this land, don't let it go empty!"
+spec_3= "Moving on! You've probably spotted some real special looking plots of land 'round here. Our MAGIC BEANS can bring about MAGIC effects if they cover those areas..."
+spec_4= "Feel free to try 'em out, and don't let those varmints get 'ya!"
+
+//Done, all special lands cleared
+done_1="So let's recap!"
+done_2= "Dark green MARSHY LAND summons rain to wash away those infernal pests..."
+done_3= "Bright green GRASSY LAND generates SPIKY SEEDS whose plants draw devils in and hurt them. But they take some damage each time they do so..."
+done_4= "And dark grey SHADOWY LAND generates SHADOWY SEEDS that spawn spooky SHADOW PLANTS that damages those foolish enough to stay too close to it before vanishing..."
+done_5= "That's all this ole coot has to teach ya. I think yer ready to take back the Farmstead from the Big Bad Goat!"
+done_6= "Just finish purifying this place so we can move on over and take him down!"
+
+//Level2_end
+end_1="Congratulations, Jacq! With the land cleared we can now reclaim our old farm!"
+end_2="And with the Devil Boss vanquished, I now have a worthy vessel to claim for my own!!!"
 
 //things that change
 earth_explanation_message = "Spiked seeds sprout Earth plants that attract enemies and slightly damages them on contact!";
@@ -7,10 +39,12 @@ water_explanation_message = "Conquering WaterLand will cause Rainfall that kills
 shadow_explanation_message = "Shadow plants explode and disappear 5 seconds after being planted, killing all enemies in their area!";
 basic_explanation_message = "Pick up seeds by walking to them! Change seeds with 'Z' and 'C'"
 
+
+
 level_end_message = "You Won! Press SPACE to move to next room."
 
 box_range = 225;
-explanation_message = water_explanation_message
+explanation_message = hey_1
 box_message_2 = ""
 //things that stay the same between different text boxes
 box_message = explanation_message

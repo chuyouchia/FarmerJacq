@@ -13,3 +13,5 @@ if(room==Level2){
 	image_yscale=1.67}
 	
 paused = false;
+
+audio_play_sound(snd_theme,1,1)

@@ -3,6 +3,8 @@
 with(other) {
 	hp = hp -5;
 	audio_play_sound(snd_jacqhit, 3,0)
+	var inst=instance_create_layer(x,y,"Overlay",ui_ow)
+	inst.direction=45
 	
 }
 

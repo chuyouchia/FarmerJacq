@@ -2,6 +2,8 @@
 
 with(other) {
 	hp = hp -5;
+	var inst=instance_create_layer(x,y,"Overlay",ui_ow)
+	inst.direction=45
 	
 }
 

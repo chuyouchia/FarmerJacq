@@ -3,6 +3,15 @@
 global.seenShadowText = false;
 global.seenEarthText = false;
 global.seenBasicText = false;
+
+
+//New_tutorial Convo
+global.hey = false
+global.plant = false
+global.spec = false
+global.done = false
+
+
 window_set_caption("Farmer Jacq");
 enum playerState{
 	idle,

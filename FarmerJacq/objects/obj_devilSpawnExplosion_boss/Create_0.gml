@@ -12,7 +12,7 @@ while count > 0 {
 	explosion_instance = noone;
 	if val != 0 {
 		with (val) {
-			explosion_instance = instance_create_layer(x_pos*150,y_pos*150, "Instances", obj_explosion);
+			explosion_instance = instance_create_layer(x_pos*150,y_pos*150, "Overlay", obj_explosion);
 			hp = hp - 2;
 			cleanup_plant(x_pos, y_pos);
 		}

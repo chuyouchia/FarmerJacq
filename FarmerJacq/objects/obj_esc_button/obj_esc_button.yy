@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_esc",
-    "path": "sprites/spr_esc/spr_esc.yy",
+    "name": "ui_pause_escape",
+    "path": "sprites/ui_pause_escape/ui_pause_escape.yy",
   },
   "solid": false,
   "visible": true,

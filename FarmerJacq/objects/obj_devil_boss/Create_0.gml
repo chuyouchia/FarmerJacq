@@ -12,6 +12,7 @@ isWave2 = false;
 
 audio_play_sound(snd_roar,5,0)
 
-instance_create_layer(room_width/2,room_height/2,"clover", ui_wave1)
+instance_create_layer(room_width/2,room_height/2,"Overlay", ui_wave1)
 
 scream_count=0
+global.boss_kill=false

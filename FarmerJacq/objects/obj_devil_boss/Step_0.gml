@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+sprite_index=spr_goat_walk
 if (instance_exists(obj_FarmerJacq)) {
 	
 	move_towards_point(obj_FarmerJacq.x, obj_FarmerJacq.y, spd);
@@ -23,7 +23,7 @@ if (hp <= hpMax*0.5 and !isWave1){
 	count += 5
 	alarm[2] = 1;
 	isWave1 = !isWave1;
-	instance_create_layer(room_width/2,room_height/2 - 30,"Instances",ui_wave2)
+	instance_create_layer(room_width/2,room_height/2 - 30,"Overlay",ui_wave2)
 }
 
 if (hp <= hpMax*0.2 and !isWave2){
@@ -33,5 +33,5 @@ if (hp <= hpMax*0.2 and !isWave2){
 	}
 	count += 5;
 	isWave2 = !isWave2;
-	instance_create_layer(room_width/2,room_height/2 - 30,"Instances",ui_wave3)
+	instance_create_layer(room_width/2,room_height/2 - 30,"Overlay",ui_wave3)
 }
