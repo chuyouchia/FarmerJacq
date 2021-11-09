@@ -17,6 +17,6 @@ draw_rectangle_color(xx-(cs*1), yy-(cs*1), xx+cs*2, yy+cs*2, c, c, c, c, true);
 draw_sprite(spr_sprout,-1, xx+(cs/2), yy+(cs/2));
 
 //Draw health bar
-if(hp < 4){
-	draw_healthbar(x-50,y-150,x+50,y-130,(hp/4)*100,c_black,c_red,c_green,0,true,true)
+if(hp < 10){
+	draw_healthbar(x-50,y-150,x+50,y-130,(hp/10)*100,c_black,c_red,c_green,0,true,true)
 }
