@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 if( !hasBeenSeen)
 {
    draw_sprite_ext(ui_popup,0,1800/2,1350/2,3,3,0,c_white,1)
-   draw_set_font(fnt_pixel)
+   draw_set_font(fnt_pixel2)
    //draw_set_alpha(box_bgcolor_alpha)
    //draw_set_color(box_bgcolor)
    //draw_rectangle(box_x1,box_y1,box_x2,box_y2, false) //try true for last argument
@@ -26,6 +28,6 @@ if( !hasBeenSeen)
    draw_set_valign(fa_middle)
    draw_set_halign(fa_middle)
    
-   draw_sprite_ext(spr_sage_talk,random(5),1800/2+600,1350/2+400,2,2,0,c_ltgrey,0.7)
+   draw_sprite_ext(spr_sage_talk,0,1800/2+600,1350/2+400,2,2,0,c_ltgrey,0.7)
    
 }

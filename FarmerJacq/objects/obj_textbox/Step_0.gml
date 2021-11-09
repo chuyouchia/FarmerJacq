@@ -69,7 +69,7 @@ if keyboard_check_pressed(vk_space) {
 	if (explanation_message==end_1){var inst = instance_create_layer(x,y, "Instances", obj_textbox);
 	inst.explanation_message = inst.end_2;
 	inst.box_range = 10;draw_sprite_stretched(spr_sage_idle,0,x+400,y+200,300,200);instance_destroy()}
-	if (explanation_message==end_2){instance_create_layer(x,y,"Overlay",obj_ending);instance_destroy()}
+	if (explanation_message==end_2){instance_destroy();room_goto_next()}
 	
 	
 	

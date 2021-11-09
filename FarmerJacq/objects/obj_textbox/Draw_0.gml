@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 /*
+
 dis = distance_to_object(obj_FarmerJacq);
 if( dis <= box_range && !hasBeenSeen)
 {
@@ -14,3 +15,4 @@ if( dis <= box_range && !hasBeenSeen)
 
 }
 */
+
