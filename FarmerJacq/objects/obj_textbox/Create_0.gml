@@ -27,7 +27,7 @@ done_2= "Dark green MARSHY LAND summons rain to wash away those infernal pests..
 done_3= "Bright green GRASSY LAND generates SPIKY SEEDS whose plants draw devils in and hurt them. But they take some damage each time they do so..."
 done_4= "And dark grey SHADOWY LAND generates SHADOWY SEEDS that spawn spooky SHADOW PLANTS that damages those foolish enough to stay too close to it before vanishing..."
 done_5= "That's all this ole coot has to teach ya. I think yer ready to take back the Farmstead from the Big Bad Goat!"
-done_6= "Just finish purifying this place so we can move on over and take him down!"
+done_6= "Just press D once you're ready to move on!"
 
 //Level2_end
 end_1="Congratulations, Jacq! With the land cleared we can now reclaim our old farm!"

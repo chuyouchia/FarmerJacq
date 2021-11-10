@@ -75,15 +75,7 @@ if keyboard_check_pressed(vk_space) {
 	
 }
 
-if keyboard_check_pressed(ord("R")) {
-	global.purification = 0;
-	room_restart();
-}
 
-if keyboard_check_pressed(ord("M")) {
-	show_debug_message("pressed M")
-	game_restart();
-}
 
 if hasBeenSeen == false {
 	instance_deactivate_all(1);	

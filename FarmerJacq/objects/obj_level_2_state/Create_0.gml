@@ -39,7 +39,7 @@ global.fertiled1 = false;
 global.fertile2 = 18;
 global.fertiled2 = false;
 
-global.seedCount = 50;
+global.seedCount = 20;
 global.earthSeedCount = 0;
 global.shadowSeedCount = 0;
 
